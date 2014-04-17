@@ -56,7 +56,7 @@ SUBJECTS = [
      u'Perturbation and Stability Methods',
      u'Polar Oceans and Climate Change',
      u'Quantum Computation',
-     u'Quantum Condensed Matter Field Theory'
+     u'Quantum Condensed Matter Field Theory',
      u'Quantum Field Theory',
      u'Quantum Foundations',
      u'Representation Theory',
