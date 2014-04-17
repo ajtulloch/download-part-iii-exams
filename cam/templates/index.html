@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container" style="margin-top:50px">
+  <div class="row">
+    <h1>Download Part III Papers</h1>
+    <form action="" method=post>
+      <table class="table table-striped">
+        <tr>
+          <th>Subject</th>
+        </tr>
+        {% for subject in subjects %}
+        <tr>
+          <td>
+            <div class="checkbox">
+              <label>
+                <input type=checkbox name=do_download value="{{ subject }}">
+                {{ subject }}
+              </label>
+            </div>
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+      <button type="submit" class="btn  btn-primary">Download</button>
+      <!-- <input type=submit value=Download> -->
+    </form>
+  </div>
+</div>
+{% endblock %}
